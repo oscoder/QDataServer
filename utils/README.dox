@@ -1,0 +1,5 @@
+/*!
+@plantagen
+\namespace Utils
+\brief Top-level namespace for common utils and helpers.
+*/

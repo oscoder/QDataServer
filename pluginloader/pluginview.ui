@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PluginLoader::PluginView</class>
+ <widget class="QWidget" name="PluginLoader::PluginView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>302</height>
+   </rect>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item row="1" column="0">
+    <widget class="QTreeWidget" name="pluginsTree">
+     <property name="alternatingRowColors">
+      <bool>true</bool>
+     </property>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <property name="columnCount">
+      <number>6</number>
+     </property>
+     <attribute name="headerDefaultSectionSize">
+      <number>120</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string comment="Name of the plugin">Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string comment="Checked if plugin is enabled">Enabled</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string comment="Checked if this plugin depends on disabled plugin">Indirectly Disabled</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string comment="Version of plugin">Version</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string comment="Description of plugin">Description</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string comment="This plugin depends on following plugins">Dependency</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

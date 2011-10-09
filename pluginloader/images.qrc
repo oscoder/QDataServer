@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/pluginloader">
+        <file>images/ok.png</file>
+        <file>images/error.png</file>
+        <file>images/not-loaded.png</file>
+    </qresource>
+</RCC>

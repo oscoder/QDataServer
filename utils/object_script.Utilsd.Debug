@@ -1,0 +1,14 @@
+INPUT(
+./.obj\configuration.o
+./.obj\toolbutton.o
+./.obj\debugger.o
+./.obj\uniqueid.o
+./.obj\filehelper.o
+./.obj\stylesheetloader.o
+./.obj\filenamedelegate.o
+./.obj\filesystemwatcher.o
+./.obj\moc_toolbutton.o
+./.obj\moc_stylesheetloader.o
+./.obj\moc_filenamedelegate.o
+./.obj\moc_filesystemwatcher.o
+);

@@ -1,0 +1,12 @@
+#ifndef PLUGINLOADER_GLOBAL_H
+#define PLUGINLOADER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(PLUGINLOADER_LIBRARY)
+#  define PLUGINLOADER_EXPORT Q_DECL_EXPORT
+#else
+#  define PLUGINLOADER_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // PLUGINLOADER_GLOBAL_H
